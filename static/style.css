@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background:rgba(0, 0, 0, 0.5) url(/static/covid-back.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.labels{
+    display: block;
+    font-size: 20px;
+    color: rgb(187, 233, 241);
+    padding: 3px;
+}
+.label:hover{
+    opacity: 0.8;
+
+}
+.container{
+    margin-bottom: 20px;
+}
+.btn{
+  height: 50px;
+  width: 135px;
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(226, 65, 65);
+  border-radius: 10px ;
+  border: 5px black;
+}
+.btn:hover{
+    transition:all 0.2s ease-in-out;
+    /* transform: translateY(-15%); */
+    box-shadow: 10px white;
+
+}
+
+.footer{
+    color: white;
+    opacity: 0.5;
+}
+p.warn{
+    font-family: 'Luckiest Guy';
+}
+.form-control{
+    border-radius: 20px;
+    height: 25px;
+}
+.form-control:focus{
+    border: 2px solid red;
+}
+
+

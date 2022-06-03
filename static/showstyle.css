@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background:url('/static/showhtml.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2{
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.thanking{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+
+}
+.results{
+    color: white;
+    font-size: 30px;
+
+}
+span{
+    color: red;
+    font: 400;
+    font-size: 30px;
+}
+.btn{
+    height: 50px;
+    width: 135px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(226, 65, 65);
+    border-radius: 10px;
+    border: 5px solid black;
+  }
+  .btn:hover{
+      transition:all 0.2s ease-in-out;
+      /* transform: translateY(-15%); */
+      box-shadow: 10px white;
+  
+  }
